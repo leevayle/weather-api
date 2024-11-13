@@ -56,7 +56,7 @@ const weatherData = [
 ];
 
 // Endpoint to get weather data for a specific city
-app.get('/leenx-weather', (req, res)=>{
+app.get('/weather', (req, res)=>{
     const {city} = req.query;
 
     if (city){
